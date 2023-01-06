@@ -1,26 +1,28 @@
 *{  margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
+   
 }
 /* Banner Style */
 .banner{
     background-image: url('/images/banner/banner3.png');
-    width: auto;
+    width: 100vw;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     
 }
 .banner-content{
     
     width: 525px;
     height: 228px;
+  
     padding-left:1200px;
     padding-top:216px ;
     padding-right:230px ;
     padding-bottom: 364px;
-    align-items:right;
-    align-content: right;
+    text-align: right;
 }  
 
 .banner-title{
@@ -67,4 +69,95 @@
 }
 .failure-check{
    line-height: 30px;
+}
+/* My plan styles */
+.my-plan{
+    padding-left: 300px;
+    padding-top: 120px;
+    
+   text-align: center;
+   width: 1141px;
+    height: 202px;
+}
+.plans{
+    padding-top: 80px;
+     font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.sub-title{
+    color: #737272;
+    padding: 10px;
+    font-size: 18px;
+}
+/* }gradiant image */
+.gradiant{
+    background-blend-mode: overlay;
+
+width: 1140px;
+margin: 200px auto 40px;
+padding:40px 64px;
+background-image: url('/images/watch.png'), url('/images/gradient1.png');
+background-repeat: no-repeat;
+
+height: 300px;
+}
+.gradiant  h2 {
+    width: 459px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color:#ffffff;
+}
+.gr-text{
+    width: 500px;
+    padding-right: 900px;
+    
+}
+/* focus section */
+.focus{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    padding: 100px 100px;
+    line-height: 40px;
+    font-size: 20px;
+
+}
+
+/* footer */
+.footer{
+    height: 577px;
+    width: 2000px;
+    display: flex;
+    gap: 331px;
+    color: #ffffff;
+    background-color: black;
+}
+.ft1{
+    width: 485px;
+    height: 317px;
+    margin-left: 230px;
+    margin-top: 130px;
+    line-height: ;
+}
+.ft2{
+    width: 325px;
+    height: 204px;
+    margin-top: 130px;
+}
+#mail{
+    width: 200px;
+    height: 40px;
+    padding:21px 158px 22px 21px ;
+    border: 1px solid #f9f9f9;
+    background-color: black;
+    border-radius:10px ;
+    font-size: 18px;
+    color: #f9f9f9;
+    
+
 }
