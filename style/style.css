@@ -1,0 +1,70 @@
+*{  margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* Banner Style */
+.banner{
+    background-image: url('/images/banner/banner3.png');
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner-content{
+    
+    width: 525px;
+    height: 228px;
+    padding-left:1200px;
+    padding-top:216px ;
+    padding-right:230px ;
+    padding-bottom: 364px;
+    align-items:right;
+    align-content: right;
+}  
+
+.banner-title{
+    
+    font-size:64px ;
+    color:#f9f9f9;
+}
+.banner-sub-title{
+    font-size: 16px;
+    color: #ffffff;
+}
+.button{
+    height: 64px;
+    width: 160px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 15px 20px 20px 20px;   
+}
+/* failure section style */
+.failure{
+    padding-top: 130px;
+    padding-left: 300px;
+    display: flex;
+    gap: 87px;
+    width: 1087px;
+    height: 723px;
+    
+    
+}
+.failure h2{
+    
+    font-size: 40px;
+    line-height: 50px;
+}
+.p{
+    padding-top: 10px;
+    line-height:25px;
+}
+.failure-text{
+    padding-top:237px ;
+}
+.failure-check{
+   line-height: 30px;
+}
