@@ -6,21 +6,19 @@
 /* Banner Style */
 .banner {
   background-image: url("../images/banner/banner3.png");
-  width: 100vw;
+
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
 }
 .banner-content {
-    position: absolute;
-    top: 20%;
-    left: 60%;
+  position: absolute;
+  top: 20%;
+  left: 60%;
   width: 525px;
   height: 500px;
 
- 
   text-align: right;
   overflow: hidden;
 }
@@ -46,13 +44,13 @@
 /* failure section style */
 .failure {
   margin: 50px auto 50px;
-  
+
   display: flex;
-  
+
   gap: 100px;
-  
+
   width: 1087px;
-  height: 723px; 
+  height: 723px;
 }
 .failure h2 {
   font-size: 40px;
@@ -70,12 +68,10 @@
 }
 /* My plan styles */
 .my-plan {
-  
   margin: 100px auto 50px;
   text-align: center;
   width: 1141px;
   height: 202px;
-
 }
 .plans {
   margin: 40px auto 50px;
@@ -94,22 +90,21 @@
 }
 /* focus section */
 .focus {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
-    padding: 100px 100px;
-    line-height: 40px;
-    font-size: 20px;
-  }
- 
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  padding: 100px 100px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
 /* gradiant image */
 .gradiant {
-  background-blend-mode: overlay;
-
   width: 1140px;
   margin: 40px auto 40px;
-  padding: 40px ;
+  padding: 40px;
   background-image: url("../images/watch.png"), url("../images/gradient1.png");
+  background-blend-mode: overlay;
   background-repeat: no-repeat;
 
   height: 300px;
@@ -121,15 +116,11 @@
   color: #ffffff;
 }
 
-
-
 /* footer */
 .footer {
   height: 577px;
-  /* width: 1500px; */
   margin: 20px auto 20px;
   display: flex;
-  
   gap: 350px;
   color: #ffffff;
   background-color: black;
@@ -147,6 +138,7 @@
 .ft2 {
   height: 204px;
   margin-top: 130px;
+  line-height:80px ;
 }
 .button2 {
   height: 64px;
