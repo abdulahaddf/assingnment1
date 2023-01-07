@@ -46,9 +46,11 @@
   margin: 50px auto 50px;
   
   display: flex;
-  gap: 87px;
+  
+  gap: 100px;
+  
   width: 1087px;
-  height: 723px;
+  height: 723px; 
 }
 .failure h2 {
   font-size: 40px;
@@ -91,13 +93,13 @@
 /* focus section */
 .focus {
     display: flex;
-    gap: 40px;
     justify-content: space-evenly;
     margin-top: 100px;
     padding: 100px 100px;
     line-height: 40px;
     font-size: 20px;
   }
+ 
 /* gradiant image */
 .gradiant {
   background-blend-mode: overlay;
@@ -116,10 +118,7 @@
   font-size: 30px;
   color: #ffffff;
 }
-/* .gr-text {
-  width: 500px;
-  
-} */
+
 
 
 /* footer */
