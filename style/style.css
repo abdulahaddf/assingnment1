@@ -121,7 +121,7 @@
 .footer {
   height: 577px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   color: #ffffff;
   background-color: black;
   background-size: cover;
@@ -129,9 +129,8 @@
 }
 
 .ft1 {
-  width: 485px;
+  width: 400px;
   height: 317px;
-  margin-left: 230px;
   margin-top: 130px;
 }
 .ft2 {
