@@ -120,9 +120,8 @@
 /* footer */
 .footer {
   height: 577px;
-  margin: 200px auto 20px;
   display: flex;
-  gap: 200px;
+  justify-content: space-around;
   color: #ffffff;
   background-color: black;
   background-size: cover;
