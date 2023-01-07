@@ -105,7 +105,7 @@
   width: 1140px;
   margin: 40px auto 40px;
   padding: 40px ;
-  background-image: url("/images/watch.png"), url("/images/gradient1.png");
+  background-image: url("../images/watch.png"), url("../images/gradient1.png");
   background-repeat: no-repeat;
 
   height: 300px;
