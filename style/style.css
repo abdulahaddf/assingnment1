@@ -44,7 +44,7 @@
 /* failure section style */
 .failure {
   margin: 50px auto 50px;
-  padding-left: 300px;
+  
   display: flex;
   gap: 87px;
   width: 1087px;
@@ -66,11 +66,12 @@
 }
 /* My plan styles */
 .my-plan {
-  padding-left: 300px;
-  margin: 50px auto 50px;
+  
+  margin: 100px auto 50px;
   text-align: center;
   width: 1141px;
   height: 202px;
+
 }
 .plans {
   margin: 40px auto 50px;
