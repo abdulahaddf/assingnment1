@@ -11,20 +11,22 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
 }
 .banner-content {
+    position: absolute;
+    top: 20%;
+    left: 60%;
   width: 525px;
-  height: 228px;
+  height: 500px;
 
-  padding-left: 1200px;
-  padding-top: 216px;
-  padding-right: 230px;
-  padding-bottom: 364px;
+ 
   text-align: right;
+  overflow: hidden;
 }
 
 .banner-title {
-  font-size: 64px;
+  font-size: 60px;
   color: #f9f9f9;
 }
 .banner-sub-title {
@@ -124,23 +126,26 @@
 /* footer */
 .footer {
   height: 577px;
-  width: 2000px;
+  /* width: 1500px; */
   margin: 20px auto 20px;
   display: flex;
   
   gap: 350px;
   color: #ffffff;
   background-color: black;
+  background-size: cover;
+  position: center;
 }
+
 .ft1 {
   width: 485px;
   height: 317px;
   margin-left: 230px;
   margin-top: 130px;
-  line-height: ;
+  
 }
 .ft2 {
-  width: 325px;
+  /* width: 100vw; */
   height: 204px;
   margin-top: 130px;
 }
